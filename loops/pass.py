@@ -1,0 +1,4 @@
+def funct():
+    pass
+
+# output-
