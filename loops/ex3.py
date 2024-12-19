@@ -56,3 +56,5 @@ print(f"sum of even no. : {sum}")
 # 98
 # 100
 # sum of even no. : 2550
+
+
