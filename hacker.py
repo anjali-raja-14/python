@@ -7,7 +7,7 @@ for i in range(a):
     list1.append(names)
     for i in range(a):
         list2.append(data)
-print(list)
+print(list1)
     
 
     
