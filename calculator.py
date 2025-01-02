@@ -14,14 +14,14 @@ operations={
     "/":divide  
 }
 def calculator():
-    num1=int(input("Enter the first number: ")) 
+    num1=float(input("Enter the first number: ")) 
     for symbol in operations: 
          print(symbol)
 
     continue_flag=True
     while  continue_flag:
         op_symbol=input("Pick the operation: ")
-        num2=int(input("Enter the second number: "))
+        num2=float(input("Enter the second number: "))
         calculator_function=operations[op_symbol]
         output=calculator_function(num1,num2)
         print(f"{num1}{op_symbol}{num2}={output}\n")

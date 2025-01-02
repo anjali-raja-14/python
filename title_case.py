@@ -10,9 +10,6 @@
 # last_name=input("Enter the Last Name: ")
 # print(name(first_name,last_name))
 
-
-
-
 def name(f_name, l_name):
     if not f_name.strip() and not l_name.strip():
         return "You have entered empty string"
