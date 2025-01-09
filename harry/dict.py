@@ -1,0 +1,10 @@
+marks={
+    "Anjali":80,
+    "Yash":60,
+    "Khushi":70,
+    "Ritesh":95
+}
+print(marks)
+print(marks.values())
+marks.update({"Ritesh":99})
+print(marks)
