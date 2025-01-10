@@ -1,0 +1,11 @@
+dict={}
+name=input("Enter the name: ")
+lang=input("Enter the name: ")
+dict.update({name:lang})
+name=input("Enter the name: ")
+lang=input("Enter the name: ")
+dict.update({name:lang})
+name=input("Enter the name: ")
+lang=input("Enter the name: ")
+dict.update({name:lang})
+print(dict)
