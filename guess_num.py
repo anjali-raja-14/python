@@ -30,7 +30,6 @@ def guess_num(attempt):
                 print("Guess again!\n")
         if (guess == Random):
             print("You won! ")
-            # print(f"The number is {Random}")
             print("Good Bye! ")
             wanna_end = False
         if (guess != Random):

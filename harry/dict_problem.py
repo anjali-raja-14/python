@@ -7,5 +7,5 @@ words={
 }
 print(" ")
 print(words.keys())
-word=input("enter  the word you want to know meaning:")
+word=input("Enter  the word you want to know meaning:")
 print(words[word])

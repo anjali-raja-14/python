@@ -1,15 +1,15 @@
-marks=[]
+fruits=[]
 
-f1=int(input("Enter marks name: "))
-marks.append(f1)
-f2=int(input("Enter marks name: "))
-marks.append(f2)
-f3=int(input("Enter marks name: "))
-marks.append(f3)
-f3=int(input("Enter marks name: "))
-marks.append(f3)
-marks.sort()
-print(marks)
+f1=(input("Enter fruits  "))
+fruits.append(f1)
+f2=(input("Enter fruits  "))
+fruits.append(f2)
+f3=(input("Enter fruits  "))
+fruits.append(f3)
+f3=(input("Enter fruits "))
+fruits.append(f3)
+fruits.sort()
+print(fruits)
 
 
 

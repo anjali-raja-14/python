@@ -30,4 +30,3 @@
 
 print("Anj\rali ")
 print("Anj\bali ")
-print("Anjali \a")
