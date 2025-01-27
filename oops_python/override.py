@@ -1,4 +1,7 @@
 class human:
+    def __init__(self):
+        self.nose=1
+        self.ear=2
     def work(self):
         print("I can work")
     def eat(self):
@@ -10,4 +13,6 @@ class male(human):
 
 male1=male()
 male1.work()
+print(male1.nose)
+print(male1.ear)
 
