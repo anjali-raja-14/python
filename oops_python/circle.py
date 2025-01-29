@@ -2,6 +2,7 @@ class Circle:
     pi=3.1
     def __init__(self,radius):
         self.radius=radius
+        
         self.area=Circle.pi*radius*radius
         self.circum=Circle.pi*radius*radius
 

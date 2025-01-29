@@ -17,6 +17,6 @@ class D( B,C):
 
 D_1=D()
 D_1.Class_D()
-print(D.mro())
-
+print(D.mro()) #method resolution order
+# first left->right then go deeper D-> B-> C-> D-> A
 

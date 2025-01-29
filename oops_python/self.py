@@ -6,6 +6,7 @@ class Dog:
         self.follower=0 # Set default atribute
 
 # Creating an object of the Dog class
+
 dog1 = Dog("Buddy", 3)
 
 print(dog1.name) 
