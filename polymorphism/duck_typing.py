@@ -3,6 +3,7 @@
 # 3. Method overriding 
 # 4. Method overloading
 
+# Duck typing 
 class duck:
     def swim(self):
         print("I am a duck , I can swim")
@@ -15,12 +16,13 @@ class dog:
     def speaks(self):
         print("I can speak")
 
-def display(obj):
-     obj.swim()
+def display(obj): # make the object of that class
+     obj.swim()  
      obj.speaks()
      print("Information delayed.......")
 
 dog_1=dog()
 duck_1=duck()
+
 display(dog_1)
 display(duck_1)

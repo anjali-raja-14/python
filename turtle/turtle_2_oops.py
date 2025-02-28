@@ -1,0 +1,12 @@
+from turtle import Turtle
+tom=Turtle()
+tom.shape("turtle")
+tom.speed(1)
+tom.pencolor("green")
+tom.fillcolor("red")
+tom.forward(200)
+# tom.backward(100)
+# tom.circle(100)
+# tom.lt(90)
+# tom.forward(200)
+tom.screen.mainloop()

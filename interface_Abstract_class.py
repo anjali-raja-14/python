@@ -1,7 +1,12 @@
+# no ready made code is there inside 
+#  only rules are given
+# like show() & color 
 # all child method couls be abstract class
+
 from abc import ABC,abstractmethod
 
 class shape(ABC): # inherit ABC class
+
     @abstractmethod
     def show(self):
         pass
@@ -28,3 +33,5 @@ circle_1.color()
 square_1=square()
 square_1.show()
 square_1.color()
+
+

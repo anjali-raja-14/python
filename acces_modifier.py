@@ -21,7 +21,7 @@ print(student._rollnum)    # Accessible (not recommended, as it's intended to be
 print(student._Student__age)  # Works, but not recommended
 
 # Calling a method to access private data
-# student.display_private_data()
+student.display_private_data()
 
 
 # Inheriting Student class in Branch

@@ -15,3 +15,4 @@ class Female(Male): # derived class from Male class
     pass
 female1=Female()
 female1.work()
+
