@@ -43,6 +43,4 @@ Floor Division: 3
 Modulus: 3
 Exponentiation: 50625
 
-
-
 """

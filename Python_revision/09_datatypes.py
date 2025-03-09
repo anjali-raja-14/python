@@ -52,3 +52,27 @@ l.remove("Orange")
 print(l)
 
 
+""""
+
+<class 'str'>
+A
+anjali2
+jenny's \n "lecture"
+<class 'complex'>
+Accessing element from the list
+Geeks
+Geeks
+Accessing element using negative indexing
+Geeks
+Geeks
+
+Tuple with the use of String:  ('Geeks', 'For')
+{'o', 's', 'g', 'e', 'k', 'G', 'f', 'r'}
+{'Geeks', 'For'}
+{1: 'Anjali', 2: 'Yash', 3: 'Bhaiyu'}
+Bhaiyu
+['Orange', 'Mango']
+['Orange', 'Mango', 'banana']
+['Mango', 'banana']
+
+"""

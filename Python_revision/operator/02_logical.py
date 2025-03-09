@@ -11,6 +11,9 @@ print(a or b)
 print(not a)
 
 
+
+# return only values not bollean vvalue
+
 """
 True
 8

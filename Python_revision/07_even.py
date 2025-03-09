@@ -13,9 +13,19 @@
 #     print("The number is even")
 
 
+"""
+Enter any number:5
+The number is odd
+"""
+
 a = int(input("Enter any number: "))
 
 if a & 1:  # Checks if the least significant bit is 1 (odd)
     print("The number is odd")
 else:
     print("The number is even")
+
+"""
+2
+even
+"""

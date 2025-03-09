@@ -6,7 +6,11 @@ a=a^b
 print(a)
 print(b)
 
+"""
+9
+5
 
+"""
 
 
 
