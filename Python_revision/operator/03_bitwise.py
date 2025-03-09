@@ -1,0 +1,1 @@
+# 2's complement helps us to store the negative number in th ememory
