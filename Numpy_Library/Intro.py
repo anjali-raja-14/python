@@ -1,0 +1,44 @@
+import numpy as np
+x=[20,2,3,54]
+serial_order=np.array(x)
+print(serial_order)
+
+"""
+o/t-
+
+[20  2  3 54]
+
+"""
+
+
+# Python program for
+# Creation of Arrays
+import numpy as np
+ 
+# Creating a rank 1 Array
+arr = np.array([1, 2, 3])
+print("Array with Rank 1: \n",arr)
+ 
+# Creating a rank 2 Array
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+print("Array with Rank 2: \n", arr)
+ 
+# Creating an array from tuple
+arr = np.array((1, 3, 2))
+print("\nArray created using "
+      "passed tuple:\n", arr)
+
+
+
+""""
+Array with Rank 1: 
+ [1 2 3]
+Array with Rank 2: 
+ [[1 2 3]
+ [4 5 6]]
+
+Array created using passed tuple:
+ [1 3 2]
+
+"""
