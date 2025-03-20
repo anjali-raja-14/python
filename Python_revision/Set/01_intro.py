@@ -3,6 +3,9 @@
 # mutable
 # set (mutable)
 # set's elements (immutable)
+# Indexing is not allowed bcs they are unordered
+# Elements are npto changeable
+
 
 collection={1,2,3,"Anjali","Raja","Raja"}
 print(collection)
@@ -22,7 +25,8 @@ collection_1.remove(2)
 print(collection_1)
 print(len(collection_1))#2
 print("pop:",collection_1.pop())
-collection_1.clear()
-print(collection_1)
+collection_1.clear()#pop: 0
+print(collection_1)#set()
+
  
 
